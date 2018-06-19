@@ -9,7 +9,7 @@ def prime?(p)
     else
       b=false
     end
-    return b
   end
+  return b
 end
 
