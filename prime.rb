@@ -1,6 +1,7 @@
 def prime?(p)
+  a = 
   b = true
-  r = (2..10000).to_a
+  r = (2..10000000).to_a
   r.each do |n|
     if p<2
       b=false
