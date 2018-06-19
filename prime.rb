@@ -2,7 +2,7 @@ def prime?(p)
   b = true
   r = (2..100).to_a
   r.each do |n|
-    if p<1
+    if p<2
       b=false
     elsif  p%n!=0
         return true
