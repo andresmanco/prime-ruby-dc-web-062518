@@ -1,3 +1,5 @@
 def prime?(n)
-  
-end
+  if n<1
+    return false
+  end
+  end
