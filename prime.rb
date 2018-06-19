@@ -3,7 +3,7 @@ def prime?(p)
   r.each do |n|
     if p<1
       return false
-    elsif  (p/n).is_a? Integer
+    elsif  (p/n).is_a? Integer && p/n != 0
       return true
     else
       return false 
