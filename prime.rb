@@ -4,7 +4,7 @@ def prime?(p)
   r.each do |n|
     if p<2
       b=false
-    elsif  p%n!=0
+    elsif  p%n==0
         return true
     else
       b=false
