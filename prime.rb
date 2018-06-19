@@ -4,8 +4,10 @@ def prime?(p)
   r.each do |n|
     if p<1
       b=false
-    elsif  (p/n).is_a? Integer && p!=n
-      return true
+    elsif  (p/n).is_a? Integer
+      if n!=p
+        return true
+      end
     else
       b=false
     end
