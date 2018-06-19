@@ -1,8 +1,7 @@
-def prime?(n)
-  r = (1..100).toa
-  
-  arr.push(r)
-  if n<1
+def prime?(p)
+  r = (1..100).to_a
+  r.each do |n|
+  if  p/n==
     return false
   end
 end
